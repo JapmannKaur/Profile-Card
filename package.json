@@ -1,0 +1,34 @@
+{
+  "name": "japmann",
+  "version": "2.0.0",
+  "description": "A personal card for Japmann Kaur",
+  "main": "card.js",
+  "type": "module",
+  "bin": {
+    "japs": "./card.js"
+  },
+  "scripts": {
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "inquirer": "^9.0.0",
+    "open": "^8.4.0",
+    "ora": "^6.1.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
